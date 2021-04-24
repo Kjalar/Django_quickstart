@@ -1,0 +1,1 @@
+web: cd tutorial && python manage.py migrate && gunicorn tutorial.wsgi
